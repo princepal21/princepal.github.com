@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: century gohtic;
+}
+
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),url("https://educationtoday.co/wp-content/uploads/2022/05/download-37.jpg");
+     height: 50vh;
+     background-size: cover;
+     background-position: center;
+}
+
+ul{
+   float: right;
+   list-style-type: none;
+   margin-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+     text-decoration: none;  
+     color: white;
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+}  
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+} 
+
+ul li.active a{
+       background-color: white;
+       color: black;
+}
+
+.logo img{
+      float: left;
+      width: 70px;
+      height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+     color: white;
+     font-size: 70px;
+     font-family: sans-serif;
+}
+
+.button{
+       position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid transparent; 
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none ;
+    transition: 0.6s ease;
+}    
+
+.btn:hover{
+       background-color: white;
+    color: black;
+     
+}
+
+.sec-title{
+     color: blueviolet;
+     font-size:30px;   
+    margin-top: 3%;
+    padding-left: 7%;
+    padding-top: 14px;
+     padding-bottom: 0px;
+     position: relative;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    font-family:sans-serif;
+
+}
+
+.text{
+    margin-bottom: 17px;
+    margin-top: -6px;
+    max-width: 550px;
+    padding-left: 7%;
+}
+
+p{
+  font-family: 'open sans',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: grey;
+  text-align: justify;
+  margin-bottom: 10px;
+  
+}
+
+
+.footer {
+     background: black;
+}
+
+.container {
+   width: 750px;
+   padding-left:15px ;
+   padding-right:15px ;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+
+.footer .footer-upper{
+   padding: 70px 0px 50px ;    
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+
+
+.col-sm-6 {
+    width: 50%;
+}
+
+
+.footer .footer-widget {
+    margin-top: 30px;
+}    
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col-xs-12 {
+    width: 100%;
+    float: left;
+}
+
+.footer .footer-widget {
+    margin-top: 30px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.footer.bg-style .footer-widget h3.title {
+    margin-bottom: 31px;
+    position: relative;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-widget h3.title {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.footer-widget h3.title {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0;
+}
+h3 {
+    font-family: 'Dosis', sans-serif;}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;}
+
+    .footer.bg-style .footer-widget.quick-links ul li a {
+    display: block;
+    font-size: 14px;
+    color: #bdbcc0;
+    line-height: 22px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer.bg-style .footer-widget.quick-links ul li a:before {
+    color: #ffffff;
+    content: '\f105';
+    font-family: "FontAwesome";
+    font-size: 12px;
+    left: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 2px;
+}
+
+.footer.bg-style .footer-widget.quick-links ul li {
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.row:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.footer-bottom {
+    background: #1a182c;
+    color: #d1d1d1;
+    padding: 20px 0px 20px;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+body {
+    color: #222222;
+    font-size: 16px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.footer-bottom .pull-left {
+    text-align: center;
+    width: 100%;
+}
+.footer-bottom .copyright-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #adadad;
+}
+.pull-left {
+    float: left;
+}
+.pull-left {
+    float: left!important;
+}
